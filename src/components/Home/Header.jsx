@@ -26,7 +26,7 @@ function Header() {
             <div className="hover:text-blue-400">Pricing</div>
             <div className="hover:text-blue-400">Support</div>
           </div>
-          <button className="pt-0.5 space-y-1 rounded" onClick={toggleMenu}>
+          <button className="pt-0.5 space-y-1 rounded text-wrap" onClick={toggleMenu}>
             <span class="block w-4 h-0.5 bg-black"></span>
             <span class="block w-4 h-0.5 bg-black"></span>
             <span class="block w-4 h-0.5 bg-black"></span>

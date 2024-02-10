@@ -164,7 +164,7 @@ function Footer() {
           <span className="text-blue-700">create a ticket here.</span>
         </p>
         <div>
-          <ul className="flex flex-row gap-6 text-gray-400 font-medium text-xs p-4 justify-center">
+          <ul className="flex flex-row gap-6 flex-wrap text-gray-400 font-medium text-xs p-4 justify-center">
             <li className="hover:text-blue-700 cursor-pointer">NSE</li>
             <li className="hover:text-blue-700 cursor-pointer">BSE</li>
             <li className="hover:text-blue-700 cursor-pointer">MCX</li>
