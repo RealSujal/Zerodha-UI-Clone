@@ -3,8 +3,8 @@ import Button from './SignupBtn';
 
 function SignupCard() {
   return (
-    <div className="h-full w-full py-32 max-lg:p-5 flex flex-col justify-center items-center">
-      <div className="pb-16">
+    <div className="h-full w-full py-32 max-lg:px-5 flex flex-col justify-center items-center">
+      <div>
         <img
           className="h-64"
           src="https://zerodha.com/static/images/landing.png"

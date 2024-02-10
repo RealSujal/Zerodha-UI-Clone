@@ -2,7 +2,7 @@ import React from 'react';
 
 function Achieve() {
   return (
-    <div className="p-32 gap-10 flex max-sm:flex-col max-lg:p-5">
+    <div className="px-32 gap-10 flex max-sm:flex-col max-lg:p-5">
       <div className="w-1/2 max-sm:w-full">
         <img
           className="h-80 w-full object-contain"
