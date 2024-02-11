@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Menu() {
+  const [isOpen, setOpen] = useState(false);
+  const click = () => {
+    setOpen(isOpen(false));
+  };
   return (
     <>
       <div
@@ -10,6 +14,7 @@ function Menu() {
       >
         <div className="hover:text-blue-400">
           <NavLink
+            onClick={click}
             to="signup"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
@@ -22,6 +27,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
+            onClick={click}
             to="about"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
@@ -34,6 +40,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
+            onClick={click}
             to="products"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
@@ -46,6 +53,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
+            onClick={click}
             to="pricing"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
@@ -58,6 +66,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
+            onClick={click}
             to="support"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
