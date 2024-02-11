@@ -2,7 +2,7 @@ import React from 'react';
 
 function SignupInput() {
   return (
-    <div className="w-full md:w-1/3">
+    <div className="w-full md:w-1/3 text-nowrap">
       <label
         className="text-gray-500 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
         htmlFor="name"
@@ -10,7 +10,7 @@ function SignupInput() {
         Mobile number
       </label>
       <input
-        className="flex h-10 w-full rounded border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+        className="flex h-10 min-w-60 rounded border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
         type="text"
         placeholder="+91 "
         id="number"

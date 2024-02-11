@@ -3,11 +3,11 @@ import Menu from './Menu';
 
 function Burger() {
   return (
-    <div className="top-16 border border-t-2 bg-white mx-32 max-lg:mx-0 min-w-fit h-auto z-40 shadow-lg text-gray-600 sticky max-lg:h-auto max-lg:w-auto max-lg:-left-10 max-lg:top-16">
-      <div className="lg:hidden flex justify-center p-5 border border-b-2">
+    <div className="top-16 border border-t-2 bg-white mx-32 max-lg:mx-0 min-w-full max-w-full h-auto z-40 shadow-lg text-gray-600 sticky max-lg:h-auto max-lg:w-auto max-lg:-left-10 max-lg:top-16">
+      <div className="lg:hidden flex flex-wrap justify-center p-5 border border-b-2">
         <Menu />
       </div>
-      <div className="flex flex-row justify-between items-center gap-20 text-center opacity-85 p-8 text-nowrap">
+      <div className="flex flex-row flex-wrap justify-between items-center gap-20 text-center opacity-85 p-8 text-nowrap">
         <div className="cursor-pointer w-auto flex flex-col justify-center items-center hover:text-blue-500">
           <img
             className="hover:opacity-80"

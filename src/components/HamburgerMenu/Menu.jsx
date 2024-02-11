@@ -6,7 +6,7 @@ function Menu() {
     <>
       <div
         id="menu"
-        className={`flex gap-12 mr-12 text-sm text-gray-500 cursor-pointer font-medium`}
+        className={`flex max-sm:flex-wrap gap-12 mr-12 text-sm text-gray-500 cursor-pointer font-medium`}
       >
         <div className="hover:text-blue-400">
           <NavLink
@@ -22,7 +22,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
-            to="signup"
+            to="about"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
                 isActive ? 'text-blue-600' : 'text-gray-500'
@@ -34,7 +34,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
-            to="signup"
+            to="products"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
                 isActive ? 'text-blue-600' : 'text-gray-500'
@@ -46,7 +46,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
-            to="signup"
+            to="pricing"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
                 isActive ? 'text-blue-600' : 'text-gray-500'
@@ -58,7 +58,7 @@ function Menu() {
         </div>
         <div className="hover:text-blue-600">
           <NavLink
-            to="signup"
+            to="support"
             className={({ isActive }) =>
               `block py-2 pr-4 pl-3 duration-200 ${
                 isActive ? 'text-blue-600' : 'text-gray-500'

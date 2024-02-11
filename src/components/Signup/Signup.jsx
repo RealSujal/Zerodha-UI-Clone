@@ -4,15 +4,15 @@ import SignupInput from './SignupInput';
 function Signup() {
   return (
     <div>
-      <div className="flex h-full flex-row max-sm:w-full px-32 max-sm:items-start max-sm:p-10 max-sm:flex-col justify-center items-center gap-24 text-gray-700">
-        <div className="pt-32 w-3/5 max-sm:w-full flex max-sm:justify-center max-sm:shrink">
+      <div className="flex h-full flex-row max-sm:w-full mt-10 px-32 max-sm:items-start max-sm:p-10 max-sm:flex-col justify-center items-center gap-24 text-gray-700">
+        <div className="pt-32 max-sm:p-10 w-3/5 max-sm:w-full flex max-sm:justify-center max-sm:shrink">
           <img
             className="h-auto max-sm:w-auto"
             src="https://signup.zerodha.com/img/landing.46a77378.png"
             alt=""
           />
         </div>
-        <div className="flex flex-col items-start w-2/5 sm:mt-20">
+        <div className="flex flex-col items-start w-2/5 text-nowrap">
           <h2 className="font-medium mb-3 mt-0" style={{ fontSize: '2rem' }}>
             Signup now
           </h2>
