@@ -3,7 +3,7 @@ import Button from './SignupBtn';
 
 function SignupCard() {
   return (
-    <div className="h-full w-full py-32 max-lg:px-5 flex flex-col justify-center items-center">
+    <div className="h-full w-full py-32 max-lg:px-5 flex flex-col justify-center items-center relative">
       <div>
         <img
           className="h-64"
