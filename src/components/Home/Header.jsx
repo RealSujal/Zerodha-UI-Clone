@@ -11,6 +11,9 @@ function Header() {
   const menu = () => {
     return isOpen ? <Burger /> : null;
   };
+  const click = () => {
+    setOpen(isOpen(false));
+  };
   return (
     <>
       <div className="w-full border-b-2 z-10 bg-white border-gray-100 fixed">
@@ -18,7 +21,7 @@ function Header() {
           className={`h-16 px-32 max-lg:px-5 py-6 flex flex-row flex-wrap justify-between shadow-sm-bottom`}
         >
           <div className="flex justify-start">
-            <Link to="/">
+            <Link to="/" onClick={click}>
               <img
                 className="h-4 w-32"
                 src="https://zerodha.com/static/images/logo.svg"
